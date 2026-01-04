@@ -21,7 +21,13 @@ PowerShell was used to inspect disk and volume information on a Windows system. 
 ---
 
 ## Media
-*(Screenshots will be added here)*
+
+### Disk Information
+![Get Disk Output](get-disk-output.png)
+
+### Volume Information
+![Get Volume Output](get-volume-output.png)
+
 
 ---
 
