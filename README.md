@@ -1,7 +1,8 @@
 # IT Support PowerShell Disk Management Walkthrough
 
 ## Project Summary
-This project demonstrates a basic IT support workflow using PowerShell to safely inspect disk and volume information on a Windows system. The goal is to simulate a real-world troubleshooting scenario where an IT support technician gathers system information without making configuration changes.
+In this project, I demonstrate a basic IT support workflow using PowerShell to safely inspect disk and volume information on a Windows system.
+The goal is to simulate a real-world troubleshooting scenario in which system information is gathered using read-only commands, ensuring no configuration changes are made.
 
 ### Languages Used
 - PowerShell
@@ -16,7 +17,11 @@ This project demonstrates a basic IT support workflow using PowerShell to safely
 ---
 
 ## Demonstration
-PowerShell was used to inspect disk and volume information on a Windows system. The `Get-Disk` command displayed all connected disks and their status. The `Get-Volume` command was used to identify drive letters, file system types, and available storage. These commands reflect common IT support diagnostic practices.
+I used PowerShell to inspect disk and volume information on a Windows system.
+The Get-Disk command was used to display all connected disks and their current status.
+The Get-Volume command was then used to identify drive letters, file system types, and available storage.
+
+These read-only commands reflect common IT support diagnostic practices used to gather system information without modifying configurations.
 
 ---
 
@@ -40,3 +45,4 @@ PowerShell was used to inspect disk and volume information on a Windows system. 
 
 ## Lessons Learned
 This project reinforced the importance of using read-only PowerShell commands during system diagnostics and demonstrated how command-line tools support safe troubleshooting in IT environments.
+Understanding the impact of each command is critical, as improper inputs can lead to unintended system changes.
