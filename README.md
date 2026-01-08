@@ -1,3 +1,5 @@
+![PowerShell IT Support Banner](powershell-it-support-disk-management-banner.png)
+
 # IT Support PowerShell Disk Management Walkthrough
 
 ## Project Summary
